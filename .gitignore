@@ -1,0 +1,84 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.log
+*.pot
+*.mo
+*.po
+*.sqlite3
+local_settings.py
+settings.py
+*.env
+.env
+env/
+venv/
+ENV/
+.venv/
+
+# Django migrations (uncomment if you want to exclude migrations)
+# migrations/
+
+# Media and static files
+media/
+staticfiles/
+*.media
+*.static
+
+# IDE and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Virtual environment
+*.venv
+venv/
+ENV/
+env/
+bin/
+Scripts/
+lib/
+Lib/
+include/
+pyvenv.cfg
+
+# Databases
+*.db
+*.sql
+*.sql.gz
+
+# Cache and temporary files
+*.bak
+*.cache
+*.swp
+*.swo
+*~
+*.tmp
+
+# Testing and coverage
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.tox/
+
+# Other
+*.pid
+*.seed
+*.pid.lock
+*.prof
